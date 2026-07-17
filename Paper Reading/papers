@@ -1,0 +1,42 @@
+| #  | Paper Title                                                                                            | Research Area             | Main Topic                  | Priority |
+| -- | ------------------------------------------------------------------------------------------------------ | ------------------------- | --------------------------- | -------- |
+| 1  | **Learning-based Passive Fault-Tolerant Control for Quadrotor (Selector-Controller Network)**          | Fault-Tolerant Control    | RL-based Passive FTC        | ⭐⭐⭐⭐☆    |
+| 2  | **Modular Aerial Robotic Systems (MARS): Robust Self-Reconstruction Algorithm**                        | Modular Robotics          | Self-Reconfiguration        | ⭐⭐⭐⭐⭐    |
+| 3  | **TransforMARS: A General Fault-Tolerant Reconfiguration Framework**                                   | Modular Robotics          | Multi-Fault Reconfiguration | ⭐⭐⭐⭐⭐    |
+| 4  | **Uniform Passive Fault-Tolerant Control for Quadcopters under One, Two, or Three Rotor Failures**     | Fault-Tolerant Control    | Passive FTC                 | ⭐⭐⭐⭐☆    |
+| 5  | **Laser-assisted Failure Recovery for Dielectric Elastomer Actuators in Aerial Robots**                | Soft Robotics             | Self-Repairing Actuators    | ⭐⭐⭐☆☆    |
+| 6  | **MorphoCopter: Design, Modeling, and Control of a New Transformable Quad-Bi Copter**                  | Morphing UAV              | Morphing Drone Design       | ⭐⭐⭐⭐☆    |
+| 7  | **Stability and Control of a Quadrocopter Despite the Complete Loss of One, Two, or Three Propellers** | Fault-Tolerant Control    | Spinning Flight             | ⭐⭐⭐⭐⭐    |
+| 8  | **Nonlinear MPC for Quadrotor Fault-Tolerant Control**                                                 | Advanced Control          | NMPC                        | ⭐⭐⭐⭐⭐    |
+| 9  | **Nezha-FX: A Morphing HAUV Designed Based on Balanced Cross-Domain Performance Optimization**         | Hybrid Robotics           | Air-Water Vehicle           | ⭐⭐⭐⭐☆    |
+| 10 | **ModQuad: The Flying Modular Structure that Self-Assembles in Midair**                                | Modular Robotics          | Midair Docking              | ⭐⭐⭐⭐☆    |
+| 11 | **Resilient Odometry via Hierarchical Adaptation (Super Odometry)**                                    | Perception / Localization | Sensor Fusion & Odometry    | ⭐⭐⭐⭐☆    |
+| 12 | **BEATLE—Self-Reconfigurable Aerial Robot: Design, Control and Experimental Validation**               | Modular Robotics          | Self-Reconfigurable UAV     | ⭐⭐⭐⭐⭐    |
+| 13 | **Robot Metabolism: Toward Machines that Can Grow by Consuming Other Machines**                        | Modular Robotics          | Robot Metabolism            | ⭐⭐⭐☆☆    |
+
+
+
+
+
+
+
+| Paper                           | Read | Summary | Code | Presentation | Ideas |
+| ------------------------------- | :--: | :-----: | :--: | :----------: | :---: |
+| Stability after Rotor Loss      |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| Uniform Passive FTC             |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| NMPC FTC                        |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| RL Passive FTC                  |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| MorphoCopter                    |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| Nezha-FX                        |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| ModQuad                         |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| BEATLE                          |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| MARS                            |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| TransforMARS                    |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| Super Odometry                  |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| Robot Metabolism                |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| Laser-assisted Failure Recovery |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+
+
+
+
+
