@@ -1,30 +1,27 @@
-| #  | Paper Title                                                                                            | Research Area             | Main Topic                  | Priority |
-| -- | ------------------------------------------------------------------------------------------------------ | ------------------------- | --------------------------- | -------- |
-| 1  | **Learning-based Passive Fault-Tolerant Control for Quadrotor (Selector-Controller Network)**          | Fault-Tolerant Control    | RL-based Passive FTC        | ⭐⭐⭐⭐☆    |
-| 2  | **Modular Aerial Robotic Systems (MARS): Robust Self-Reconstruction Algorithm**                        | Modular Robotics          | Self-Reconfiguration        | ⭐⭐⭐⭐⭐    |
-| 3  | **TransforMARS: A General Fault-Tolerant Reconfiguration Framework**                                   | Modular Robotics          | Multi-Fault Reconfiguration | ⭐⭐⭐⭐⭐    |
-| 4  | **Uniform Passive Fault-Tolerant Control for Quadcopters under One, Two, or Three Rotor Failures**     | Fault-Tolerant Control    | Passive FTC                 | ⭐⭐⭐⭐☆    |
-| 5  | **Laser-assisted Failure Recovery for Dielectric Elastomer Actuators in Aerial Robots**                | Soft Robotics             | Self-Repairing Actuators    | ⭐⭐⭐☆☆    |
-| 6  | **MorphoCopter: Design, Modeling, and Control of a New Transformable Quad-Bi Copter**                  | Morphing UAV              | Morphing Drone Design       | ⭐⭐⭐⭐☆    |
-| 7  | **Stability and Control of a Quadrocopter Despite the Complete Loss of One, Two, or Three Propellers** | Fault-Tolerant Control    | Spinning Flight             | ⭐⭐⭐⭐⭐    |
-| 8  | **Nonlinear MPC for Quadrotor Fault-Tolerant Control**                                                 | Advanced Control          | NMPC                        | ⭐⭐⭐⭐⭐    |
-| 9  | **Nezha-FX: A Morphing HAUV Designed Based on Balanced Cross-Domain Performance Optimization**         | Hybrid Robotics           | Air-Water Vehicle           | ⭐⭐⭐⭐☆    |
-| 10 | **ModQuad: The Flying Modular Structure that Self-Assembles in Midair**                                | Modular Robotics          | Midair Docking              | ⭐⭐⭐⭐☆    |
-| 11 | **Resilient Odometry via Hierarchical Adaptation (Super Odometry)**                                    | Perception / Localization | Sensor Fusion & Odometry    | ⭐⭐⭐⭐☆    |
-| 12 | **BEATLE—Self-Reconfigurable Aerial Robot: Design, Control and Experimental Validation**               | Modular Robotics          | Self-Reconfigurable UAV     | ⭐⭐⭐⭐⭐    |
-| 13 | **Robot Metabolism: Toward Machines that Can Grow by Consuming Other Machines**                        | Modular Robotics          | Robot Metabolism            | ⭐⭐⭐☆☆    |
 
+| Order | Paper Title                                                                                              | Main Topic                         | Why Read It at This Stage?                                                                                                 |
+| ----: | -------------------------------------------------------------------------------------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+|     1 | **Stability and Control of a Quadrocopter Despite the Complete Loss of One, Two, or Three Propellers**   | Fundamental Fault-Tolerant Control | Introduces the basic concept of fault-tolerant flight with relatively simple control strategies. Excellent starting point. |
+|     2 | **Uniform Passive Fault-Tolerant Control for a Quadcopter Subject to One, Two, or Three Rotor Failures** | Passive Fault-Tolerant Control     | Extends the classical FTC framework using disturbance estimation and dynamic control allocation.                           |
+|     3 | **Nonlinear MPC for Quadrotor Fault-Tolerant Control**                                                   | Model Predictive Control           | Read after learning MPC. Demonstrates how nonlinear optimization is applied to quadrotor control.                          |
+|     4 | **Learning-Based Passive Fault-Tolerant Control for Quadrotor (Selector-Controller Network)**            | Reinforcement Learning + FTC       | Requires understanding of both control theory and introductory reinforcement learning.                                     |
+|     5 | **MorphoCopter: Design, Modeling, and Control of a New Transformable Quad-Bi Copter**                    | Morphing UAV                       | Introduces morphing aerial vehicles and adaptive control concepts.                                                         |
+|     6 | **Nezha-FX: A Morphing HAUV Designed Based on Balanced Cross-Domain Performance Optimization**           | Hybrid Aerial-Underwater Robot     | Expands morphing concepts to cross-domain robotics and multi-objective design optimization.                                |
+|     7 | **ModQuad: The Flying Modular Structure that Self-Assembles in Midair**                                  | Modular Aerial Robotics            | Introduces modular aerial robots and mid-air docking mechanisms.                                                           |
+|     8 | **BEATLE—Self-Reconfigurable Aerial Robot: Design, Control and Experimental Validation**                 | Modular Self-Reconfiguration       | Presents improved docking mechanisms and coordinated flight of connected aerial modules.                                   |
+|     9 | **Modular Aerial Robotic Systems (MARS): Robust Self-Reconstruction Algorithm**                          | Modular Robotics                   | Introduces controllability-aware self-reconfiguration algorithms.                                                          |
+|    10 | **TransforMARS: A General Fault-Tolerant Reconfiguration Framework**                                     | Advanced Modular Robotics          | Generalizes MARS to arbitrary structures and multiple rotor/unit failures.                                                 |
+|    11 | **Resilient Odometry via Hierarchical Adaptation (Super Odometry)**                                      | Sensor Fusion & State Estimation   | Best studied after Kalman filtering and state estimation fundamentals.                                                     |
+|    12 | **Robot Metabolism: Toward Machines That Can Grow by Consuming Other Machines**                          | Robot Morphology & Adaptation      | A visionary paper discussing long-term physical adaptation and self-growth of modular robots.                              |
+|    13 | **Laser-assisted Failure Recovery for Dielectric Elastomer Actuators in Aerial Robots**                  | Soft Robotics                      | Specialized work on self-repairing soft actuators; less directly related to your current control-focused roadmap.          |
 
-
-
-
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 | Paper                           | Read | Summary | Code | Presentation | Ideas |
 | ------------------------------- | :--: | :-----: | :--: | :----------: | :---: |
-| Stability after Rotor Loss      |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
-| Uniform Passive FTC             |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
-| NMPC FTC                        |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
+| Stability after Rotor Loss      |   X  |     X   |   ⬜ |       X      |  X   |
+| Uniform Passive FTC             |   X |     X   |   ⬜  |       X      |  X  |
+| NMPC FTC                        |  X  |    X   |   ⬜  |       X     |   X  |
 | RL Passive FTC                  |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
 | MorphoCopter                    |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
 | Nezha-FX                        |   ⬜  |    ⬜    |   ⬜  |       ⬜      |   ⬜   |
@@ -40,3 +37,8 @@
 
 
 
+| Paper                                               | Core Idea                                                                                 | Control Philosophy                 |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------- |
+| **Stability and Control Despite Rotor Loss (2014)** | Accept the unavoidable spin and control the reduced attitude.                             | **Classical Control (LQR)**        |
+| **Uniform Passive FTC**                             | Treat rotor failures as disturbances and use a single controller without fault detection. | **Passive Fault-Tolerant Control** |
+| **Nonlinear MPC for FTC**                           | Predict future states and compute optimal control inputs subject to constraints.          | **Optimization-Based Control**     |
